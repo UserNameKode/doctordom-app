@@ -91,7 +91,7 @@
 
 ```bash
 # Клонирование репозитория
-git clone https://github.com/ВАШ_USERNAME/doctordom-app.git
+git clone https://github.com/UserNameKode/doctordom-app.git
 cd doctordom-app
 
 # Установка зависимостей
@@ -212,7 +212,7 @@ npx expo build:android --type app-bundle
 
 - 📧 Email: support@doctordom.ru
 - 💬 Telegram: @doctordom_support
-- 🐛 Issues: [GitHub Issues](https://github.com/ВАШ_USERNAME/doctordom-app/issues)
+- 🐛 Issues: [GitHub Issues](https://github.com/UserNameKode/doctordom-app/issues)
 
 ## 🎉 Благодарности
 
