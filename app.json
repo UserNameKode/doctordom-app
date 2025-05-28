@@ -1,0 +1,80 @@
+{
+  "expo": {
+    "name": "doctordom",
+    "slug": "doctordom",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.doctordom.app",
+      "config": {
+        "googleMapsApiKey": "$GOOGLE_MAPS_API_KEY"
+      },
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "remote-notification"
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.doctordom.app",
+      "config": {
+        "googleMaps": {
+          "apiKey": "$GOOGLE_MAPS_API_KEY"
+        }
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow DoctorDom to use your location."
+        }
+      ],
+      "expo-font",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#ffffff",
+          "defaultChannel": "default"
+        }
+      ]
+    ],
+    "notification": {
+      "icon": "./assets/notification-icon.png",
+      "color": "#ffffff",
+      "iosDisplayInForeground": true,
+      "androidMode": "default",
+      "androidCollapsedTitle": "DoctorDom"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b5d7328e-3e0c-4b93-bb9c-252ef9c89d77"
+      }
+    },
+    "owner": "alexeytimakov2025"
+  }
+}
